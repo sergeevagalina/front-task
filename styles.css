@@ -28,14 +28,16 @@
 	width: 42%;
 }
 
-.footer__textarea-with-button {
+.footer__input-with-button {
 	position: relative;
 }
 
-.footer__textarea {
-	width: 98%;
+.footer__input {
+	width: 85%;
 	border-width: 0;
-	border-radius: 2px;
+	border-radius: 2px 0 0 2px;
+	font-size: 20px;
+	line-height: 2.4;
 }
 
 .footer__button {
@@ -74,7 +76,7 @@
 }
 
 
-@media (min-width: 320px) and (max-width: 376px) {
+@media (width: 320px) {
 	.footer__inner {
 		padding: 30px 0;
 		width: 300px;
@@ -106,12 +108,3 @@
 	}
 
 }
-
-
-
-
-
-
-
-
-
